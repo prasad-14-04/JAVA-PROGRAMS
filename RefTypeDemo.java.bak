@@ -1,0 +1,20 @@
+class RefTypeDemo 
+{
+	public static void main(String[] args) 
+	{
+		int a,b;
+		a=9999
+	    b=a;
+		System.out.println(a);//9999
+	    System.out.println(b);//9999
+
+	System.out.println("---------------------");
+
+	a=5555;
+	System.out.println(a);//5555
+	System.out.println(b);//9999
+
+
+
+	}
+}
